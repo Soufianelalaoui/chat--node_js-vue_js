@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "dev",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "m1-ccm",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "m1-ccm",
+    "database": "prod",
+    "host": "/cloudsql/insset:europe-west6:bdd-projet-m1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/cloudsql/insset:europe-west6:bdd-projet-m1"
+    }
+  }
+}

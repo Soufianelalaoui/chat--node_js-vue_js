@@ -1,0 +1,16 @@
+.footer, .footer a {
+    text-align: center;
+    color: #fff
+}
+.main-container {
+    margin-top: 10%;
+}
+.box-container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: beige;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
